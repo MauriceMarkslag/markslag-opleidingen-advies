@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <title>Markslag Opleidingen & Advies</title>
+</head>
+
+<body>
+
+    <!-- Logo -->
+    <div class="container-lg d-flex justify-content-center py-2" style="background-color: rgba(155, 176, 201, 1)">
+        <img src="images/MOA-logo.png" alt="logo" class="img-fluid" width="300px" >
+    </div>
+
+    <!-- Navigation -->
+    <ul class="container-lg nav justify-content-around">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" style="color: black;">Over mij</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="crkbo.html" style="color: black;">CRKBO</a>
+        </li>
+        <li class="nav-item">
+            <a id="navContact" class="contact nav-link" href="#" style="color: black;">Contact</a>
+        </li>  
+    </ul>
+
+    <!-- Modal Contact Form -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="header">
+                <h3 class="title">Contact</h3>
+                <div class="close">&times;</div>
+            </div>
+            <form id="contact-form" method="post" action="contactform.php" role="form">
+
+                <div class="response"></div>
+                
+                <div class="controls">
+                    <div class="form-group">
+                        <label for="form_name">Naam *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Vul graag uw voornaam in.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="form_mail">E-mail adres *</label>
+                        <input id="form_mail" type="text" name="mail" class="form-control" required="required" data-error="Vul graag uw e-mail adres in.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="form_tel">Telefoonnummer</label>
+                        <input id="form_tel" type="text" name="tel" class="form-control" data-error="Vul graag uw telefoonnummer in.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_message">Beschrijving *</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Type hier uw vraag" rows="4" required="required" data-error="Vul graag uw vraag in."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary mt-3">Verstuur Bericht</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Introduction -->
+    <div id="introduction" class="container-lg d-flex justify-content-center align-items-center">
+            <div class="mx-5 my-3 px-3 py-3 rounded" style="background-color: rgba(190, 196, 200, 0.85)">
+                <h3>Ik ben Bart Markslag,</h3>
+                <p>Ik ben sinds 1986 actief op het gebied van de opsporing, toezicht en handhaving.</p>
+                <p>Graag wil ik mijn brede kennis en ervaringen op het gebied van opsporing, toezicht en handhaving met u delen en kan daarbij trajecten aanbieden met begeleiding en coaching en het verzorging van relevante opleidingen voor toezichthouders en opsporingsambtenaren.
+                    Met het creatief en actief meedenken aan casuïstiek uit de praktijk wordt de handhaver gevormd hetgeen van waarde is voor de toekomst. </p>
+                <p>Ben u geïnteresseerd of heeft u verder vragen of suggesties?
+                    U kunt mij bereiken door uw bericht te versturen via het contactformulier.</p>
+                
+                <button id="myBtn" type="button" class="btn btn-primary">Contact</button>
+                <a href="https://www.linkedin.com/in/bart-markslag-28b99a18b/" target="_blank">
+                    <img src="./images/LI-Logo.png" alt="LinkedIn Logo" width="120px" style="float: right;"/>
+                </a>
+            </div>
+    </div>
+
+    <!-- Over mij -->
+    <div id="overmij" class="container-lg">
+        <h2 class="my-5"><span>Over mij</span></h2>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <p class="mx-5">Vanaf 1986 ben ik werkzaam binnen het taakveld van de opsporing, toezicht en handhaving en door gebruik te maken van de 
+                    mogelijkheden om kennis en ervaring op te doen binnen de verschillende disciplines binnen dit taakveld, maakte het voor mij 
+                    ook mogelijk deze kennis en ervaring over te brengen op anderen.</p></br>
+                <p class="mx-5">Dit gaf mij veel energie en ik zag dat mijn inbreng een positief effect had.
+                    De stap om fysiek opleidingen te gaan verzorgen was dan ook een logische stap.
+                    Medio 2010 ben ik begonnen met het verzorgen van opleidingen voor onder meer de Politieacademie en voor diverse gemeentes.
+                    Dit heeft uiteindelijk geleid tot de start van mijn onderneming <strong>Markslag Opleiding en Advies in 2019</strong>.</p></br>
+                <p class="mx-5">Vanaf 2019 verzorg ik voornamelijk de opleidingen voor de Buitengewoon Opsporingsambtenaar.
+                    Daarnaast was ik ruim een jaar werkzaam als freelance docent binnen de Politieacademie voor de opleidingen van de 
+                    politiestudenten.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 text-left">
+                <img src="./images/classroom.jpg" alt="classroom" max-width="100%" height="550px" class="rounded ms-5 ms-md-0"/>
+            </div>
+        </div>
+        <h2 class="my-3"></h2>
+    </div>
+
+    <!-- Motto -->
+    <div id="motto" class="container-lg d-flex justify-content-start align-items-start">
+            <div class="rounded col-lg-6 col-md-6 col-sm-10 my-5 mx-5 py-5 px-5 text-center" style="background-color: rgba(190, 196, 200, 0.85)">
+                <h4>Mijn motto</h4>
+                <p class="text-center">
+                    Opsporing, toezicht en handhaving is een ambacht. Het begrip ambacht is een heel breed begrip. Het is niet van belang wat je doet, maar hoe je het doet. 
+                    Het gaat om precisiewerk, om maatwerk, met een passie en streven naar perfectie van het werk.</p>
+                <p class="text-center">Hierbij is niet alleen de wet- en regelgeving van wezenlijk belang, maar ook de kennis op basis van inzicht en ervaring tijdens de uitoefening van het vak. 
+                    Met het leveren van maatwerk ben je in staat om creatief te denken. </p>
+                <p class="text-center">Je kunt bepalen op basis van creativiteit en vakkennis wat nodig is om het beste resultaat te behalen.</p>
+            </div>
+        
+    </div>
+
+    <!-- Footer -->
+    <div class="container-lg text-center" style="background-color: rgba(155, 176, 201, 1)">
+        <div class="row">
+            <div class="footer col-lg-3 col-md-3 col-sm-12 py-4">
+                <img src="./images/MOA-logo.png" alt="logo" class="img-fluid" width="200"/>
+            </div>
+            <div class="footer col-lg-3 col-md-3 col-sm-12 py-5">
+                <img src="icons/envelope.svg"/>
+                <span class="ps-2">bart.markslag@gmail.com</span>
+            </div>
+            <div class="footer col-lg-3 col-md-3 col-sm-12 py-5">
+                <img src="icons/telephone.svg"/>
+                <span class="ps-2">+31 6 39 12 98 88</span>
+            </div>
+            <div class="footer col-lg-3 col-md-3 col-sm-12 py-5">
+                <span>KVK: 75208156</span>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+    <script src="main.js"></script>  
+</body>
+</html>

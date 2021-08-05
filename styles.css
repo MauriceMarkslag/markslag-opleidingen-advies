@@ -1,0 +1,96 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+h2 h3 h4 {
+    font-weight: 600;
+}
+
+#introduction {
+    background-image: url('./images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30rem;
+    width: 100%;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    line-height: 0.1em;
+}
+
+h2 span {
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+
+#motto {
+    background-image: url('./images/background2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30rem;
+    width: 100%;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: rgba(102, 138, 164, 1);
+    border-color: rgba(102, 138, 164, 1)
+}
+
+/* Modal Contact Form */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0, 0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  /* Title */
+  .title {
+    float: left;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: rgb(172, 172, 172);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Footer responsive */
+  @media only screen and (max-width: 768px) {
+      .footer {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+      }
+
+  }
